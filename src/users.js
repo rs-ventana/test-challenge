@@ -1,6 +1,6 @@
 // Imports small array of users
 // Pretend it's an API request
-const users = require("./data").default;
+const users = require("./data.js").default;
 
 // Fetches all users
 const getUsers = () => {
@@ -11,6 +11,11 @@ const getUsers = () => {
 const getUser = (id) => {
   return users.find((user) => user.id === id);
 };
+
+//ahora, fetch
+
+
+
 
 // test
 // console.log(getUser(3));
