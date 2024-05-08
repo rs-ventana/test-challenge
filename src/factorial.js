@@ -8,7 +8,6 @@ function factorial(n) {
     }
 }
 
-
 function getFactorial(numero) {
     // Verificar si el número es un entero positivo
     if (isNaN(numero) || numero < 1 || !Number.isInteger(numero)) {
@@ -16,7 +15,12 @@ function getFactorial(numero) {
     }
 
     // Calcular el factorial del número
-    return getfactorial(numero);
+    return factorial(numero);
 }
 
 module.exports = getFactorial;
+
+
+// funcionó en positivos
+// funcionó en negativos
+// funcionó para un caso extremo de un numero muy grande

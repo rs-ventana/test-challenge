@@ -193,7 +193,7 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "jest users.test.js" // ir agregando
+    "test": "jest factorialTres.test.js " 
   },
   "keywords": [
     "test",
@@ -203,6 +203,6 @@
     "jest",
     "calculator"
   ],
-  "author": "keacluster",
+  "author": "rs-ventana",
   "license": "ISC"
 }
